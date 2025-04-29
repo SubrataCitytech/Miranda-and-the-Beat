@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"> -->
+    <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css" />
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <!-- <link rel="stylesheet" href="assets/css/aos.css" /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <style>
+        #lottie-animation {
+            width: 300px;
+            height: 300px;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="logo" href="home.html">
+                        <img src="assets/images/logo.png" alt="logo" />
+                    </a>
+                    <nav>
+                        <ul class="d-flex align-items-center justify-content-center">
+                            <li><a href="home.html">home</a></li>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Tour Schedule</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="social_link d-flex align-items-center justify-content-end">
+                        <li>
+                            <a href="#">
+                                <i><img src="assets/images/ic_instagram.svg" alt="instagram" /></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i><img src="assets/images/ic_spotify.svg" alt="spotify" /></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i><img src="assets/images/ic_bandcamp.svg" alt="bandcamp" /></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i><img src="assets/images/ic_youtube.svg" alt="youtube" /></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i><img src="assets/images/ic_tiktokp.svg" alt="tiktokp" /></i>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href="#">
+                                <i><img src="assets/images/logo.png" alt="tiktokp"/></i>
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="banner">
+                <div id="player-container" style="position: relative; width: 100%; height: 775px;">
+                    <div id="player" style="opacity: 0"></div>
+                    <img id="pause-overlay" src="assets/images/banner_image@2x.jpg"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block; z-index: 8;">
+                </div>
+                <!-- <div class="video-container">
+                    <iframe width="1657" height="932" src="https://www.youtube.com/embed/bo7j7eQHkEE"
+                        title="Miranda and The Beat - Sweat (Official Video)" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div> -->
+                <div class="banner_content" id="banner_content">
+                    <h1>
+                        Miranda and the Beat
+                        <small>is rock and roll</small>
+                    </h1>
+                    <a class="border_btn" onclick="hideDiv()">Listen our music</a>
+                </div>
+
+                <a class="scroll-line" onclick="smoothScrollTo('our_story')"></a>
+            </section>
+            <section class="our_story" id="our_story">
+                <div class="container">
+                    <div class="row our_story_row">
+                        <div class="col-lg-6 col-md-6 col-12 text-right d-flex align-items-center">
+                            <div class="text-right">
+                                <h2>
+
+                                    <i class="animate-on-scroll">
+                                        <div class="sound-wave">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <!-- <img src="assets/images/ic_sound_wave.svg" /> -->
+                                    </i>
+                                    our story
+                                    <small>About the Mirinda and the beat.</small>
+                                </h2>
+                                <p>
+                                    Miranda and the Beat, is rock and roll band featuring Miranda Zipse (guitar and lead
+                                    vocals), Dylan Fernandez (farfisa), and Alvin Jackson (bass). Since their explosive
+                                    debut in 2018, the band has been renowned for their high-energy live shows and
+                                    fearless
+                                    punk approach.
+                                </p>
+                                <a class="border_btn">Read more</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 text-right">
+                            <div class="row scroll-container">
+                                <div class="col-6 list-wrapper left">
+                                    <ul>
+                                        <li><img src="assets/images/story_list_1.jpg" /></li>
+                                        <li><img src="assets/images/story_list_2.jpg" /></li>
+                                        <li><img src="assets/images/story_list_3.jpg" /></li>
+                                        <li><img src="assets/images/story_list_6.jpg" /></li>
+                                        <li><img src="assets/images/story_list_5.jpg" /></li>
+                                        <li><img src="assets/images/story_list_4.jpg" /></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 list-wrapper right">
+                                    <ul>
+                                        <li><img src="assets/images/story_list_4.jpg" /></li>
+                                        <li><img src="assets/images/story_list_5.jpg" /></li>
+                                        <li><img src="assets/images/story_list_6.jpg" /></li>
+                                        <li><img src="assets/images/story_list_1.jpg" /></li>
+                                        <li><img src="assets/images/story_list_2.jpg" /></li>
+                                        <li><img src="assets/images/story_list_3.jpg" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="still_bg">
+                <section class="tour_schedule" id="tour_schedule">
+                    <div class="container">
+                        <div class="text-center">
+                            <h2>
+
+                                <i class="animate-on-scroll">
+                                    <div class="sound-wave">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <!-- <img src="assets/images/ic_sound_wave.svg" /> -->
+                                </i>
+                                tour schedule
+                                <small>upcoming concerts</small>
+                            </h2>
+                            <p>
+                                Miranda and the Beat have announced the European tour dates in support of their
+                                acclaimed sophomore album, Can’t Take It, out now on Ernest Jenning Record
+                                Co./Khannibalism in North America and Wild Honey in Europe (order). Upcoming shows are
+                                listed below, and tickets are on sale now. 
+                            </p>
+
+
+                            <a class="border_btn">browse all dates</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="watch_us" id="watch_us">
+                    <div class="container">
+                        <div class="row watch_us_row">
+                            <div class="col-lg-6 col-md-6 col-12 text-right">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12 text-right d-flex align-items-center">
+                                <div class="text-left">
+                                    <h2>
+
+                                        <i class="animate-on-scroll visible">
+                                            <div class="sound-wave">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <!-- <img src="assets/images/ic_sound_wave.svg" /> -->
+                                        </i>
+                                        watch us
+                                        <small>Watch our latest concerts</small>
+                                    </h2>
+                                    <p>
+                                        Miranda & The Beat have created a rock and roll storm so prepare your ears for a
+                                        hurricane of blasphemy and tears. After extensively touring since their debut
+                                        Self-Titled LP released in May 2023, the band is back in full force with their
+                                        classic gut wrenching guitar, tear jerking vocals, and taste for blood.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="follow_us" id="follow_us">
+                    <div class="container">
+                        <div class="text-center">
+                            <h2>
+
+                                <i class="animate-on-scroll">
+                                    <div class="sound-wave">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <!-- <img src="assets/images/ic_sound_wave.svg" /> -->
+                                </i>
+                                Follow us
+                                <small>Follow us on Instagram</small>
+                            </h2>
+                        </div>
+                        <div id="gallery" class="my-gallery">
+                            <a href="assets/images/follow_us_img_1.jpg"><img
+                                    src="assets/images/thumb_follow_us_img_1.jpg" alt="Image 1"></a>
+                            <a href="assets/images/follow_us_img_2.jpg"><img
+                                    src="assets/images/thumb_follow_us_img_2.jpg" alt="Image 2"></a>
+                            <a href="assets/images/follow_us_img_3.jpg"><img
+                                    src="assets/images/thumb_follow_us_img_3.jpg" alt="Image 3"></a>
+                            <a href="assets/images/follow_us_img_4.jpg"><img
+                                    src="assets/images/thumb_follow_us_img_4.jpg" alt="Image 4"></a>
+                            <a href="assets/images/follow_us_img_5.jpg"><img
+                                    src="assets/images/thumb_follow_us_img_5.jpg" alt="Image 5"></a>
+                            <a href="assets/images/follow_us_img_6.jpg"><img
+                                    src="assets/images/thumb_follow_us_img_6.jpg" alt="Image 6"></a>
+                            <a href="assets/images/banner.jpg"></a>
+                            <a href="assets/images/follow_us_img_6.jpg"></a>
+                            <a href="assets/images/banner.jpg"></a>
+                            <a href="assets/images/follow_us_img_6.jpg"></a>
+                            <a href="assets/images/banner.jpg"></a>
+                            <a href="assets/images/follow_us_img_6.jpg"></a>
+                            <a href="assets/images/banner.jpg"></a>
+                            <a href="assets/images/follow_us_img_6.jpg"></a>
+                            <a href="assets/images/banner.jpg"></a>
+                            <a href="assets/images/follow_us_img_6.jpg"></a>
+                            <!-- More images -->
+                        </div>
+                    </div>
+                </section>
+                <!-- <div id="lottie-animation"></div> -->
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="top_footer row">
+                    <div class="col-lg-5 col-md-5 col-12">
+                        <a class="footer_logo" href="home.html">
+                            <img src="assets/images/footer_logo.png" alt="footer_logo" />
+                        </a>
+                        <p>
+                            Miranda and the Beat, is rock and roll band featuring Miranda Zipse (guitar and lead
+                            vocals), Dylan Fernandez (farfisa), and Alvin Jackson (bass).
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6">
+                        <div class="footer_links_wrapper">
+                            <h6>links</h6>
+                            <ul class="footer_links">
+                                <li><a href="home.html">home</a></li>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Tour Schedule</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <h6>Listen to us</h6>
+
+                        <ul class="social_link d-flex align-items-center justify-content-between">
+                            <li>
+                                <a href="#">
+                                    <i><img src="assets/images/ic_instagram.svg" alt="instagram" /></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i><img src="assets/images/ic_spotify.svg" alt="spotify" /></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i><img src="assets/images/ic_bandcamp.svg" alt="bandcamp" /></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i><img src="assets/images/ic_youtube.svg" alt="youtube" /></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i><img src="assets/images/ic_tiktokp.svg" alt="tiktokp" /></i>
+                                </a>
+                            </li>
+                            <!-- <li>
+                            <a href="#">
+                                <i><img src="assets/images/logo.png" alt="tiktokp"/></i>
+                            </a>
+                        </li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="down_footer text-center">
+                    <span>© 2025 by Miranda and The Beat. All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <!-- <script src="assets/js/aos.js"></script> -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+
+    <script>
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '775',
+                width: '100%',
+                videoId: 'bo7j7eQHkEE', // <-- only the ID
+                playerVars: {
+                    controls: 0,      // Show controls
+                    rel: 0,           // Disable related videos
+                    modestbranding: 0, // Reduce YouTube branding
+                },
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+
+        function hideDiv() {
+            document.getElementById("player").style.opacity = 1;
+            document.getElementById("pause-overlay").style.display = "none";
+            document.getElementById("banner_content").style.display = "none";
+            return false; // Prevents the page from jumping to top
+        }
+
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+
+            // scroll slower for smoother motion
+            document.querySelector('.left ul').style.transform = `translateY(${scrollY * -0.05}rem)`;
+            document.querySelector('.right ul').style.transform = `translateY(${scrollY * 0.05}rem)`;
+        });
+
+        function smoothScrollTo(id, speed = 20) {
+            const target = document.getElementById(id);
+            if (!target) return;
+
+            const targetY = target.getBoundingClientRect().top + window.scrollY;
+            const step = 40; // pixels per frame (increase = faster)
+
+            const scrollInterval = setInterval(() => {
+                const currentY = window.scrollY;
+                const distance = targetY - currentY;
+
+                if (Math.abs(distance) < step) {
+                    window.scrollTo(0, targetY);
+                    clearInterval(scrollInterval);
+                } else {
+                    window.scrollBy(0, distance > 0 ? step : -step);
+                }
+            }, speed);
+        }
+
+        const animatedElements = document.querySelectorAll('.animate-on-scroll');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    //  observer.unobserve(entry.target);
+                } else {
+                    entry.target.classList.remove('visible');
+                }
+            });
+        }, {
+            threshold: 0.1 // adjust this as needed
+        });
+
+        animatedElements.forEach(el => observer.observe(el));
+
+    </script>
+    <script type="module">
+        import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.min.js';
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallery: '#gallery',
+            children: 'a',
+            pswpModule: () => import('https://unpkg.com/photoswipe@5/dist/photoswipe.esm.min.js')
+        });
+        lightbox.init();
+    </script>
+
+
+
+    <!-- <script>
+        lottie.loadAnimation({
+            container: document.getElementById('lottie-animation'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'https://lottie.host/4ebd42fa-ea6d-46b0-a962-e928af63ce6b/u5FPwB1nNa.json',
+            //   path: 'https://lottie.host/55b00b22-4269-4a89-9e41-ce68d6f2392e/bjFtDf8r2R.json',
+            //  path: 'https://assets7.lottiefiles.com/packages/lf20_gydj6czw.json'
+        });
+    </script> -->
+</body>
+
+</html>

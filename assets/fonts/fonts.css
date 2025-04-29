@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'InriaSans-Light';
+    src: url('InriaSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'InriaSans-Regular';
+    src: url('InriaSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'InriaSans-Bold';
+    src: url('InriaSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
